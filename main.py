@@ -205,8 +205,6 @@ def load_status_updates(filename):
 
 def add_user(user_id, email, user_name, user_last_name):
     """
-    Creates a new instance of User and stores it in user_collection
-    (which is an instance of UserCollection)
 
     Requirements:
     - user_id cannot already exist in user_collection.
